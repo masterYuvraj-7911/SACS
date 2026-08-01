@@ -134,7 +134,7 @@ const Footer = () => {
                 </div>
 
               </div>
-
+{/* 
               <div className="flex gap-4 mt-6 text-2xl">
 
                 <a href="#">
@@ -149,7 +149,7 @@ const Footer = () => {
                   <FaLinkedin className="hover:text-blue-500 duration-300" />
                 </a>
 
-              </div>
+              </div> */}
 
             </div>
 

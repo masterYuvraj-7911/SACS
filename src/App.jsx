@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import ParticleBackground from "./components/ParticleBackground";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
+import Teacher from "./pages/Teacher";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
 
       <Home />
       <About />
+      <Teacher />
       <Contact/>
       <Footer/>
     </div>

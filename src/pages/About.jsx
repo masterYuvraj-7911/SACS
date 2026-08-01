@@ -80,13 +80,6 @@ const About = () => {
 
   </div>
 
-  <a
-    href="#contact"
-    className="inline-block mt-12 px-8 py-4 rounded-xl bg-yellow-400 text-black font-bold hover:scale-105 duration-300"
-  >
-    Enroll Today
-  </a>
-
 </div>
   );
 };
