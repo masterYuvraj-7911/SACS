@@ -9,6 +9,7 @@ const OverlayMenu = ({
     { id: "home", label: "HOME" },
     { id: "about", label: "ABOUT" },
     { id: "contact", label: "CONTACT" },
+    { id: "teacher", label: "TEACHER" },
     { id: "footer", label: "CREATOR" },
   ];
 
