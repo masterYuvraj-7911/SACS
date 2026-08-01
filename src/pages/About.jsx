@@ -17,7 +17,7 @@ const subjects = [
 
 const About = () => {
   return (
-    <div className="max-w-5xl mx-auto px-6 lg:px-12 text-center">
+    <div id="about" className="max-w-5xl mx-auto px-6 lg:px-12 text-center">
 
   <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-5 py-2 rounded-full text-yellow-400 border border-white/10">
     <FaBookOpen />

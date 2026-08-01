@@ -1,7 +1,8 @@
 import About from "./pages/About";
 import Home from "./pages/Home";
 import ParticleBackground from "./components/ParticleBackground";
-import Experience from "./pages/Experience";
+import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
 
       <Home />
       <About />
-      <Experience />
+      <Contact/>
+      <Footer/>
     </div>
   );
 };

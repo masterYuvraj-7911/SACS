@@ -8,8 +8,8 @@ const OverlayMenu = ({
   const links = [
     { id: "home", label: "HOME" },
     { id: "about", label: "ABOUT" },
-    { id: "projects", label: "PROJECTS" },
     { id: "contact", label: "CONTACT" },
+    { id: "footer", label: "CREATOR" },
   ];
 
   return (
@@ -21,7 +21,7 @@ const OverlayMenu = ({
           <FiX className="text-4xl text-primary hover:text-primary-hover transition-colors" />
         </button>
         <div className="flex flex-col items-center gap-8 text-3xl font-semibold relative z-10">
-           {links.map((item) => <a key={item.id} href={`#${item.id}`} onClick={() => {setActive(item.id);  setIsOpen(false)}} className={`relative uppercase transition-all duration-300 hover:text-primary hover:scale-105 ${active === item.id ? "text-primary" : "text-white" }`}>{item.label} </a> )}
+           {links.map((item) => <a key={item.id} href={`#${item.id}`} className={`relative uppercase transition-all duration-300 hover:text-primary hover:scale-105 ${active === item.id ? "text-primary" : "text-white" }`}>{item.label} </a> )}
         </div>
       </div>
     </>

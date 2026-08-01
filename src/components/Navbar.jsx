@@ -67,12 +67,12 @@ const Navbar = () => {
         </button>
 
         <div className="hidden sm:flex items-center space-x-8">
-          {["home", "about", "toppers", "contact"].map((e) => (
+          {["home", "about", "contact","footer"].map((e) => (
             <a
               key={e}
               href={`#${e}`}
               className="text-white font-bold capitalize transition-colors hover:text-yellow-400">
-              {e}
+              {e === "footer" ? "Creator" : e}
             </a>
           ))}
         </div>
