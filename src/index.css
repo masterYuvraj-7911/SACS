@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #2629d4;
+
+  /* Lighter purple for hover */
+  --color-primary-hover: #9f4dff;
+
+  /* Dark purple for borders/backgrounds */
+  --color-secondary: #6504f723;
+
+  /* Soft border color */
+  --color-border: #6d28d9;
+  --color-border-hover: #ab62ff;
+}
